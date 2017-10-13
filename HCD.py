@@ -3,6 +3,7 @@ from flask import Flask, request
 import shopify
 from models import db
 from flask.ext.sqlalchemy import SQLAlchemy
+from flask.ext.heroku import Heroku
 app = Flask(__name__)
 
 POSTGRES = {
