@@ -10,3 +10,8 @@ psycopg2
 #flask-SQL
 Flask-SQLAlchemy
 
+#flask-migrate
+Flask-Migrate
+
+#Flask Script
+Flask-Script
