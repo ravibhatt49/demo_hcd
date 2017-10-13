@@ -1,0 +1,12 @@
+# flask
+flask
+
+#shopify API for python
+shopifyAPI
+
+#postgres driver
+psycopg2
+
+#flask-SQL
+Flask-SQLAlchemy
+
