@@ -3,7 +3,7 @@ from flask import Flask, request
 import shopify
 from models import db
 from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.heroku import Heroku
+# from flask.ext.heroku import Heroku
 app = Flask(__name__)
 
 POSTGRES = {
@@ -15,7 +15,7 @@ POSTGRES = {
 }
 
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://%(user)s:%(pw)s@%(host)s:%(port)s/%(db)s'% POSTGRES
-heroku = Heroku(app)
+# heroku = Heroku(app)
 db = SQLAlchemy(app)
 API_KEY = '65c703a61049d706fee3af82bf772df1'
 PASSWORD = '131625b9f4ba96a751aac14ab990e071'
