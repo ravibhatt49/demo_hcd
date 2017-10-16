@@ -20,7 +20,7 @@ db = SQLAlchemy(app)
 API_KEY = '65c703a61049d706fee3af82bf772df1'
 PASSWORD = '131625b9f4ba96a751aac14ab990e071'
 
-@app.route('/products', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def products():
     if request.method == "POST":
         return 'This is demo post'
